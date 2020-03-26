@@ -21,7 +21,7 @@ print (float(bytes_kilobytes)/1024)
 #байти в мегабайти
 print ('Enter value to covert it (bytes-megabytes)')
 bytes_megabytes=input()
-print (float(bytes_megabytes)/1048576)
+print (float(bytes_megabytes)/1024/1024)
 
 #3. Користувач вводить два числа. Одне присвоюється одній змінній,
 #а друге - іншій. Необхідно поміняти значення змінних так, щоб значення першої
